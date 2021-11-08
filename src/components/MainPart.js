@@ -9,7 +9,7 @@ const MainPart = () => {
 
     const getAlbumsId = albumsId(photos);
 
-    // Check every photo's album id and add this id into a new array. 
+    // Check every photo's album id and add this id into a new array to send albums in the AlbumSelector component. Also call Favorites component, when the use wants to see it.
     function albumsId(data) {
         if (data.length === 0) {
             return [];

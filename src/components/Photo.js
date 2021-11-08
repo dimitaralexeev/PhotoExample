@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { albumActions } from "../store/album";
 
+// Photo component: it is called from Albums component to visualise photos from the albums or from the favorites album.
 const Photo = (props) => {
     const dispatch = useDispatch();
     const photos = useSelector(state => state.response.response);

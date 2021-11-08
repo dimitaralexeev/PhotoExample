@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { uiActions } from "../store/ui";
 
+// Album component selector
 const AlbumSelector = (props) => {
     const dispatch = useDispatch();
     const id = useSelector(state => state.ui.albumId);

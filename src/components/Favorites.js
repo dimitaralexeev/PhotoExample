@@ -1,6 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { uiActions } from "../store/ui";
 
+// Favorites component: get the favorites photos from the store and set how many photo have.
 const Favorites = () => {
 
     const getFavorites = useSelector(state => state.album.favoritesAlbum);

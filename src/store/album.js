@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// Favorites reducer 
+// Favorites album reducer 
 const albumSlice = createSlice({
     name: 'album',
     initialState: {

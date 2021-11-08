@@ -16,7 +16,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // Fetching photos async function and set the response 
+    // Fetching photos async function and set the response in the store
     const fetchPhotos = async () => {
       const response = await fetch('https://jsonplaceholder.typicode.com/photos');
 

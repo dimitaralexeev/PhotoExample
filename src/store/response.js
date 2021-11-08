@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-// API responce reducer
+// API response reducer
 const responseSlice = createSlice({
     name: 'response',
     initialState: {

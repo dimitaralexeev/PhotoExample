@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 
 import Photo from './Photo';
 
+// Album component 
 const Albums = () => {
 
     const id = useSelector(state => state.ui.albumId);
